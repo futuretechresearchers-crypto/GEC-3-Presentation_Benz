@@ -23,6 +23,7 @@ The build checks TypeScript and generates `dist/`. Do not open `index.html` dire
 ## Classroom controls
 
 - Next/previous buttons and Left/Right arrows change slides. Home returns to the title.
+- Download PDF saves a readable presentation handout with slide content, simple explanations and references. It excludes the quiz, answers, scores and presenter instructions, and works offline.
 - Explore slides opens the table of contents; References jumps to slide 20.
 - Fullscreen button or F toggles browser fullscreen when supported. Escape closes an overlay or exits browser fullscreen.
 - Edit group details on the title slide to add group members, instructor and date. These values are saved in this browser only.

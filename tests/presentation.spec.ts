@@ -3,6 +3,10 @@ import {slides} from '../src/data';
 test('slides, navigation, notes, quiz, offline and responsive layout',async({page,context})=>{
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto('/');await expect(page.getByRole('heading',{name:'GLOBAL MIGRATION.'})).toBeVisible();
+ const [pdf] = await Promise.all([page.waitForEvent('download'),page.getByRole('button',{name:'Download PDF',exact:true}).click()]);
+ expect(pdf.suggestedFilename()).toBe('Global-Migration-Presentation.pdf');
+ expect(await pdf.failure()).toBeNull();
+ await page.locator('main h1').click();
  await page.keyboard.press('ArrowRight');await expect(page.getByRole('heading',{name:'People move. Culture travels.'})).toBeVisible();
  await page.keyboard.press('ArrowLeft');await expect(page.getByText('01 / A world in motion')).toBeVisible();
  await page.getByRole('button',{name:'Explore slides'}).click();await expect(page.locator('.contents button')).toHaveCount(20);await page.keyboard.press('Escape');

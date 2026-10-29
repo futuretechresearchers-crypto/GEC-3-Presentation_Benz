@@ -6,7 +6,9 @@ The repository was initially empty; this application was created from the suppli
 
 Tests use the production build. The automated browser suite records desktop and mobile screenshots under ignored `test-results/`.
 
-Executed successfully: `npm run build`, `npm test` (two unit tests), and `npm run test:e2e` (one comprehensive Chrome browser test). The browser run completed all interactions, fullscreen, a 390px mobile overflow check, production service-worker offline reload and offline quiz rendering without JavaScript errors.
+Executed successfully: `npm run build`, `npm test` (three unit tests), and `npm run test:e2e` (one comprehensive Chrome browser test). The browser run covers all interactions, fullscreen, a 390px mobile overflow check, production service-worker offline reload and offline quiz rendering without JavaScript errors.
+
+PDF verification checks the downloaded filename and successful browser download. A document-content test checks that the generated handout contains simple explanations, the cited remittance figure and source URLs, and excludes quiz terminology and every assessment question. The PDF is generated locally from slide content, rather than by capturing the application interface.
 
 ## Scope
 
