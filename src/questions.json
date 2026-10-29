@@ -1,0 +1,92 @@
+﻿[
+    {
+        "question":  "What is global migration?",
+        "options":  [
+                        "The movement of animals only",
+                        "The movement of people across countries",
+                        "The movement of planets",
+                        "The exchange of money"
+                    ]
+    },
+    {
+        "question":  "What do we call a person who moves into another country to live there?",
+        "options":  [
+                        "Tourist",
+                        "Visitor",
+                        "Immigrant",
+                        "Traveler"
+                    ]
+    },
+    {
+        "question":  "Which is an example of a push factor?",
+        "options":  [
+                        "Better job opportunities abroad",
+                        "Higher salaries abroad",
+                        "Access to a preferred university abroad",
+                        "War and conflict at home"
+                    ]
+    },
+    {
+        "question":  "Which is an example of a pull factor?",
+        "options":  [
+                        "Better employment opportunities",
+                        "Natural disasters",
+                        "Armed conflict",
+                        "Political persecution"
+                    ]
+    },
+    {
+        "question":  "What does OFW stand for?",
+        "options":  [
+                        "Office for World Workers",
+                        "Overseas Filipino Worker",
+                        "Organization for Foreign Workers",
+                        "Overseas Family Welfare"
+                    ]
+    },
+    {
+        "question":  "What are remittances?",
+        "options":  [
+                        "Taxes collected from tourists",
+                        "Payments for imported goods",
+                        "Money sent by migrants to people back home",
+                        "Fees paid to embassies"
+                    ]
+    },
+    {
+        "question":  "Which of the following is an example of cultural exchange?",
+        "options":  [
+                        "Preventing migrants from speaking their language",
+                        "Closing all international borders",
+                        "Restricting cultural celebrations",
+                        "Sharing traditional food and festivals"
+                    ]
+    },
+    {
+        "question":  "Which is a common challenge experienced by migrants?",
+        "options":  [
+                        "Language barriers",
+                        "Guaranteed employment",
+                        "Automatic citizenship",
+                        "Free housing everywhere"
+                    ]
+    },
+    {
+        "question":  "Which region includes the Philippines, Thailand, and Indonesia?",
+        "options":  [
+                        "South America",
+                        "Eastern Europe",
+                        "Southeast Asia",
+                        "Northern Africa"
+                    ]
+    },
+    {
+        "question":  "Why is global migration important in the contemporary world?",
+        "options":  [
+                        "It completely eliminates cultural differences",
+                        "It connects people, economies, and cultures",
+                        "It prevents international communication",
+                        "It stops cultural exchange"
+                    ]
+    }
+]
